@@ -26,6 +26,7 @@
         font-weight: 500;
         color:var(--text-dark);
         text-align: center;
+        
         font-family: Arial (sans-serif)
 
     }
@@ -157,7 +158,7 @@
             <div class="header_content"> 
             <h1>Registre-se</h1>
             </div>
-            <form>
+            <form method="POST" action="testemailgun.php">
                 <h1>NOME</h1>
                 <input type="text" placeholder="Seu nome">
                 <br>
